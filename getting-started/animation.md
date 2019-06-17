@@ -17,7 +17,7 @@ In our scenario, let wrap the list items with `<transition-group>` as below:
 ...
 ```
 
-We update now the main.css file to include the relevant classes. Since we named the transition group as list, the class will prefix with its name as below
+We now update the main.css file to include the relevant classes. Since we named the transition group as list, the class will prefix with its name as below
 
 ```css
 .list-item {
