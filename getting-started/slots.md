@@ -20,7 +20,7 @@ Vue.component("remaining-items", {
 ...
 ```
 
-And we can use by simple adding the content inside the component tag as below:
+And we can use by simply adding the content inside the component tag as below:
 
 ```markup
 <remaining-items :remaining="todos.filter(t => !t.done).length">
